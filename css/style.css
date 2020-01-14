@@ -52,6 +52,7 @@ body {
   font-size: 30px;
   line-height: 70px;
 }
+
 #number {
   display: inline-block;
   width: 70px;
@@ -71,21 +72,39 @@ hr {
   padding: 2px;
   border: 1px solid black;
 }
+
 .email-row.read {
   background-color: #AFC7C7;
 }
+
 .email-row.unread {
   background-color: white;
 }
+
 .email-text {
   color: grey;
 }
+
 .email-text:before {
   content: " - ";
 }
+
 .email-text:after {
   content: "...";
 }
+
 .star:after {
   content: "\02605";
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+  font-size: 15px;
 }
