@@ -20,7 +20,7 @@ body {
 }
 
 #title {
-    color: darkred;
+    color: #E8A317;
     font-size: 50px;
     font-weight: bold;
 }
@@ -39,7 +39,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     padding: 2px 10px 2px 10px;
-    background-color: darkred;
+    background-color: #E8A317;
     color: white;
     cursor: pointer;
     opacity: 0.9;
@@ -57,7 +57,35 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: orange;
+  background: #E8A317;
   text-align: center;
   vertical-align: middle;
+}
+
+hr {
+    border: 3px inset lightgrey;
+    margin: 10px 0;
+}
+
+.email-row {
+  padding: 2px;
+  border: 1px solid black;
+}
+.email-row.read {
+  background-color: #AFC7C7;
+}
+.email-row.unread {
+  background-color: white;
+}
+.email-text {
+  color: grey;
+}
+.email-text:before {
+  content: " - ";
+}
+.email-text:after {
+  content: "...";
+}
+.star:after {
+  content: "\02605";
 }
